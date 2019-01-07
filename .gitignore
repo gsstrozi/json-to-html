@@ -1,6 +1,16 @@
 # Compiled class file
 *.class
 
+# Config
+*.project
+*.classpath
+*.settings
+*.mvn
+
+# Target folder
+
+target/
+
 # Log file
 *.log
 
