@@ -1,6 +1,5 @@
 # JSON para Página HTML
-Converte JSON para Página HTML. 
-Intuito de facilitar a apresentação de um arquivo JSON produzido por uma API
+Converte JSON para Página HTML. Busca facilitar a apresentação de um arquivo JSON produzido por uma API
 
 ## JSON Enviado
 
@@ -27,4 +26,5 @@ Intuito de facilitar a apresentação de um arquivo JSON produzido por uma API
 ```
 ## Resultado
 
-# [![Resultado](json-to-html-result.jpg)]
+# ![](json-to-html-result.JPG)
+ 
