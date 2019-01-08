@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JsonToHtmlController {
 	private static final Logger LOG = Logger.getLogger(JsonToHtmlController.class);
 
-	@RequestMapping(path = "/json", produces = MediaType.APPLICATION_XHTML_XML_VALUE, method = RequestMethod.POST)
+	@RequestMapping(path = "/json", produces = MediaType.TEXT_HTML_VALUE, method = RequestMethod.POST)
 	public ResponseEntity<String> helper(@RequestBody(required = true) String json) {
 		JsonToHtml bodyHTML = new JsonToHtml();
 		try {
